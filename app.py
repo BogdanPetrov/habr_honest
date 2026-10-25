@@ -6,8 +6,8 @@ import pendulum
 import polars as pl
 import streamlit as st
 
-ARTICLES_PATH = 'https://github.com/BogdanPetrov/habr_honest/raw/6166b168dcb4481e569745e1d3c2cbe7a96e4b76/habr_articles.txt.gz'
-WORDS_PATH = 'https://github.com/BogdanPetrov/habr_honest/raw/6166b168dcb4481e569745e1d3c2cbe7a96e4b76/habr_word_data.txt.gz'
+ARTICLES_PATH = 'https://github.com/BogdanPetrov/habr_honest/raw/refs/heads/main/habr_articles.txt.gz'
+WORDS_PATH = 'https://github.com/BogdanPetrov/habr_honest/raw/refs/heads/main/habr_word_data.txt.gz'
 DATE_FROM = pendulum.parse('2020-09-07 00:00:00+00:00')
 DATE_TO = pendulum.parse('2026-08-24 00:00:00+00:00')
 DISPLAY_LIMIT = 2000
