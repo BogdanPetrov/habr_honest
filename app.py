@@ -9,7 +9,7 @@ import streamlit as st
 ARTICLES_PATH = 'https://github.com/BogdanPetrov/habr_honest/raw/refs/heads/main/habr_articles.txt.gz'
 WORDS_PATH = 'https://github.com/BogdanPetrov/habr_honest/raw/refs/heads/main/habr_word_data.txt.gz'
 DATE_FROM = pendulum.parse('2020-09-07 00:00:00+00:00')
-DATE_TO = pendulum.parse('2026-08-24 00:00:00+00:00')
+DATE_TO = pendulum.parse('2026-10-24 00:00:00+00:00')
 DISPLAY_LIMIT = 2000
 ALIGN_POS = 50
 PUBLISHED_FMT = '%Y-%m-%dT%H:%M:%S%.fZ'
